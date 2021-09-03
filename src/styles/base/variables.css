@@ -1,14 +1,11 @@
 :root {
   /* Color */
-  --color-blue: #0058ab;
-  --color-dark-blue: #004f93;
+  --color-purple: #4f25bb;
   --color-white: #ffffff;
-  --color-beige: #f5f5f5;
+  --color-beige: #c4c4c4;
   --color-grey: #837e7e;
+  --color-light-grey: #eeeeee;
   --color-black: #000000;
-  --rgb-color-black: 0, 0, 0;
-  --rgb-color-blue: 0, 88, 171;
-  --alpha: 0.5;
 
   /* Space */
   --space-small: 8px;

@@ -4,6 +4,8 @@
   grid-gap: 1rem;
   grid-template-columns: repeat(2, minmax(150px, 1fr));
 }
+
+/* Project card */
 .project-card {
   display: flex;
   flex-direction: column;
@@ -68,84 +70,65 @@
 }
 img.default {
   height: auto;
-    max-width: 100%;
-    vertical-align: middle;
-    max-height: 200px;
-    object-fit: cover;
+  max-width: 100%;
+  vertical-align: middle;
+  max-height: 200px;
+  object-fit: cover;
 }
- .link {
-  display: block;
-  height: 50px;
-  background-color: black;
-  color: white;
-}
-.link.secondary {
-  background-color: royalblue;
-}
+
 .about-project {
-  padding: 1rem;
-  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  padding: var(--space-medium);
+  color: var(--color-white);
+  background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
 }
 .about-project h2 {
-  color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  margin: 0px;
+  margin: 0;
   margin-bottom: 10px;
-  font-size: 22px;
+  font-size: var(--font-size-big);
+  font-weight: 700;
+  text-transform: capitalize;
 }
-.about-project > p {
-  color: #ffffff;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;
-  font-weight: 400;
-  font-size: 17px;
 
+.about-project > p {
+  margin-bottom: var(--space-medium);
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: var(--font-size-medium);
+  line-height: 1.5;
 }
 
 .links {
   margin-top: 30px;
   text-align: center;
-  font-weight: bold;
-}
-.link {
-  color: #ffffff;
-  padding: 0.8rem;
-  font-size: 18px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  font-weight: 400;
-  display: block;
-  width: 100%;
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
-  text-decoration: none;
+  font-weight: 700;
 }
 
-.link.primary {
-  margin-bottom: 10px;
+.primary a {
+  margin-bottom: var(--space-small);
+  padding: var(--space-small);
+  display: block;
+  width: 100%;
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: var(--font-size-medium);
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
   background-color: royalblue;
+  cursor: pointer;
 }
 
 .pills {
+  margin-bottom: 55px;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 55px;
+  color: initial;
 }
 .pill {
-  padding: 5px 10px;
-  border: 1px solid black;
-  border-radius: 50px;
   margin-top: 10px;
   margin-right: 11px;
+  padding: 5px 10px;
+  border: 1px solid var(--color-black);
+  border-radius: 50px;
 }
-/* 
-.project-details {
-  display: grid;
-  grid-template-columns: 57% 1fr;
-  grid-gap: 12px;
-} */

@@ -2,10 +2,10 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999;
   height: 60px;
   width: 100%;
-  background-color: #EC615B;
+  background-color: #ec615b;
+  z-index: 9999;
 }
 
 .nav-bar ul {
@@ -27,13 +27,12 @@
 
 .nav-item a {
   text-decoration: none;
-  /* color: #737373; */
-  color: #4F25BB;
+  color: var(--color-purple);
   font-weight: 600;
 }
 .nav-item:hover a {
   text-decoration: underline;
-  color: #4F25BB;
+  color: var(--color-purple);
 }
 
 .logo {
@@ -49,14 +48,14 @@
   order: 3;
 }
 
-/* desktop WIP */
-/* .nav-bar ul {
-  grid-template-columns: 1fr repeat(4, auto);
-  grid-column-gap: 16px;
-  padding: 0 16px;
+@media (min-width: 1025px) {
+  .nav-bar ul {
+    grid-template-columns: 1fr repeat(4, auto);
+    grid-column-gap: 16px;
+    padding: 0 16px;
+  }
+  .hero-item {
+    order: initial;
+    justify-self: start;
+  }
 }
-.hero-item {
-  order: initial;
-  justify-self: start;
-}
- */

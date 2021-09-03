@@ -4,25 +4,19 @@ export const projects = [
     title: "Vegan Restaurant Website",
     description:
       "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    techs: [
-      "React",
-      "Javascript",
-      "HTML",
-      "CSS",
-      "Firebase Hoisting",
-    ],
+    techs: ["React", "Javascript", "HTML", "CSS", "Firebase Hoisting"],
     isLocked: false,
     screen: "vegan-screen.jpg",
     thumb: "vegan-thumb.jpg",
-    gitLink: "https://github.com/OlgaPinchuk",
-    hostingLink: "https://olga-pinchuk-portfolio.web.app/",
+    git: "https://github.com/OlgaPinchuk",
+    hosting: "https://olga-pinchuk-portfolio.web.app/",
   },
   {
     id: 2,
     title: "Package Tracker",
     description:
       "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-      techs: [
+    techs: [
       "React",
       "Recoil",
       "Javascript",
@@ -30,18 +24,18 @@ export const projects = [
       "CSS",
       "Firebase Hoisting",
     ],
-    isLocked: false,
+    isLocked: true,
     screen: "parcels-screen.jpg",
     thumb: "parcels-thumb.jpg",
-    gitLink: "https://github.com/OlgaPinchuk/parcel-tracker",
-    hostingLink: "https://olga-pinchuk-portfolio.web.app/",
+    git: "https://github.com/OlgaPinchuk/parcel-tracker",
+    hosting: "https://olga-pinchuk-portfolio.web.app/",
   },
   {
     id: 3,
     title: "Todo List TTD",
     description:
-      "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-      techs: [
+      "This is a simple shopping list app that can work from any mobile web browser without any installations. It uses:",
+    techs: [
       "React",
       "Recoil",
       "Javascript",
@@ -50,18 +44,18 @@ export const projects = [
       "Jest",
       "Firebase Hoisting",
     ],
-    isLocked: false,
+    isLocked: true,
     screen: "todolist-screen.jpg",
     thumb: "todolist-thumb.jpg",
-    gitLink: "https://github.com/OlgaPinchuk/shopping-list",
-    hostingLink: "https://olga-pinchuk-portfolio.web.app/",
+    git: "https://github.com/OlgaPinchuk/shopping-list",
+    hosting: "https://eika-shopping-list-19175.web.app/",
   },
   {
     id: 4,
     title: "E-commerce Site",
     description:
       "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-      techs: [
+    techs: [
       "React",
       "Recoil",
       "Javascript",
@@ -69,18 +63,18 @@ export const projects = [
       "CSS",
       "Firebase Hoisting",
     ],
-    isLocked: false,
+    isLocked: true,
     screen: "ecommerce-screen.jpg",
     thumb: "ecommerce-thumb.jpg",
-    gitLink: "https://github.com/OlgaPinchuk",
-    hostingLink: "https://olga-pinchuk-portfolio.web.app/",
+    git: "https://github.com/OlgaPinchuk",
+    hosting: "https://olga-pinchuk-portfolio.web.app/",
   },
   {
     id: 5,
     title: "BBQ Restaruant Website",
     description:
       "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-      techs: [
+    techs: [
       "React",
       "Recoil",
       "Javascript",
@@ -88,18 +82,18 @@ export const projects = [
       "CSS",
       "Firebase Hoisting",
     ],
-    isLocked: false,
+    isLocked: true,
     screen: "bbq-screen.jpg",
     thumb: "bbq-thumb.jpg",
-    gitLink: "https://github.com/OlgaPinchuk",
-    hostingLink: "https://olga-pinchuk-portfolio.web.app/",
+    git: "https://github.com/OlgaPinchuk",
+    hosting: "https://olga-pinchuk-portfolio.web.app/",
   },
   {
     id: 6,
     title: "Learning Platform",
     description:
       "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-      techs: [
+    techs: [
       "React",
       "Recoil",
       "Javascript",
@@ -107,18 +101,18 @@ export const projects = [
       "CSS",
       "Firebase Hoisting",
     ],
-    isLocked: false,
+    isLocked: true,
     screen: "learning-platform-screen.jpg",
     thumb: "learning-platform-thumb.jpg",
-    gitLink: "https://github.com/OlgaPinchuk",
-    hostingLink: "https://olga-pinchuk-portfolio.web.app/",
+    git: "https://github.com/OlgaPinchuk",
+    hosting: "https://olga-pinchuk-portfolio.web.app/",
   },
   {
     id: 7,
     title: "Netflix Clone",
     description:
       "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-      techs: [
+    techs: [
       "React",
       "Recoil",
       "Javascript",
@@ -126,10 +120,10 @@ export const projects = [
       "CSS",
       "Firebase Hoisting",
     ],
-    isLocked: false,
+    isLocked: true,
     screen: "netflix-screen.jpg",
     thumb: "netflix-thumb.jpg",
-    gitLink: "https://github.com/OlgaPinchuk",
-    hostingLink: "https://olga-pinchuk-portfolio.web.app/",
+    git: "https://github.com/OlgaPinchuk",
+    hosting: "https://olga-pinchuk-portfolio.web.app/",
   },
 ];
