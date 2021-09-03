@@ -59,3 +59,8 @@
     justify-self: start;
   }
 }
+@media (max-width: 440px) {
+  .nav-item a {
+    font-size: var(--font-size-small);
+  }
+}
