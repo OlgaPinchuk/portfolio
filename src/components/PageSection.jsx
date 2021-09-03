@@ -12,7 +12,7 @@ export default function PageSection({ item }) {
         )}
       </div>
 
-      <div className="main">{Component && <Component />}</div>
+      <>{Component && <Component />}</>
     </section>
   );
 }

@@ -24,6 +24,7 @@
   justify-content: center;
   background-color: var(--color-purple);
 }
+
 .footer svg {
   color: var(--color-light-grey);
 }
@@ -32,6 +33,7 @@
   display: flex;
   justify-content: center;
 }
+
 .social-media a {
   display: inline-block;
   margin-right: var(--space-small);
@@ -44,8 +46,31 @@
   color: var(--color-white);
 }
 
-@media(min-width: 1025px) {
+@media (min-width: 1025px) {
   .contacts-section ul {
     margin-top: 0;
+  }
+
+  .layout.contact {
+    grid-template-areas:
+      "title title"
+      "aside content"
+      "footer footer";
+  }
+
+  .contact.main {
+    grid-area: unset;
+  }
+
+  .descriptions {
+    grid-area: aside;
+  }
+
+  .contacts-section {
+    grid-area: content;
+  }
+
+  .footer {
+    grid-area: footer;
   }
 }

@@ -1,5 +1,5 @@
-import { faEnvelope, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import {  faLinkedin, faGit } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPhone, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGit } from "@fortawesome/free-brands-svg-icons";
 
 export const contactInfo = [
   {
@@ -22,7 +22,6 @@ export const contactInfo = [
   },
 ];
 
-
 export const contactLinks = [
   {
     id: 1,
@@ -34,4 +33,4 @@ export const contactLinks = [
     gitUrl: "https://github.com/OlgaPinchuk",
     icon: faGit,
   },
-]
+];

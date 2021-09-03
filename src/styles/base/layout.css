@@ -76,7 +76,7 @@ a {
     grid-area: content;
   }
   .layout h2  {
-    margin: var(--space-medium) 35px;
+    margin: var(--space-medium) 15px;
     text-align: left;
   }
 }

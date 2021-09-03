@@ -6,7 +6,7 @@ import { technologies } from "../data/technologies";
 export default function TechList() {
   return (
     <div className="tech-list">
-      <List list={technologies} Component={TechItem}/>
+      <List list={technologies} Component={TechItem} />
     </div>
   );
 }

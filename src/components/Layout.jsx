@@ -4,5 +4,5 @@ import PageSection from "./PageSection";
 import { pageSections } from "../data/pageSections";
 
 export default function Layout() {
-  return <List list={pageSections} Component={PageSection}/>
+  return <List list={pageSections} Component={PageSection} />;
 }
