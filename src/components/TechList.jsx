@@ -1,16 +1,17 @@
-import { technologies } from "../data/data";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { technologies } from "../data/technologies";
 
 export default function TechList() {
   return (
-    <ul>
-      {technologies.map((item, index) => (
+    <ul className="tech-list">
+      {technologies.map((item, index) => {
+        const imageSrc = require(`../assets/images/techs/${item.imgSrc}`).default;
+        return (
         <li key={index} className="tech-item">
-          {/* <FontAwesomeIcon icon={faHome}/> */}
-          <p>{item}</p>
+          <img src={imageSrc} alt=""/>
+          <p>{item.name}</p>
         </li>
-      ))}
+        )
+      })}
     </ul>
   );
 }

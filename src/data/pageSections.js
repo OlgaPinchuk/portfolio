@@ -1,5 +1,5 @@
-import About from "../components/About";
-import ProjectsList from "../components/ProjectsList";
+import AboutDetails from "../components/AboutDetails";
+import ProjectsController from "../components/ProjectsController";
 import TechList from "../components/TechList";
 import ContactDetails from "../components/ContactDetails";
 
@@ -19,7 +19,7 @@ export const pageSections = [
       "Hi! I’m Olga, a junior frontend developer from Ukraine. This is my website, which I use to showcase everything I have developed.",
       "I specialize in React development with a minimalistic design and attention to details. Why do I need minimalistic design and attention to details, you might ask? Well, scroll down and let me convince you.",
     ],
-    component: About,
+    component: AboutDetails,
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const pageSections = [
     title: "Projects",
     description:
       "Here are the projects I will be making during the Frontend course at Novare Potential.",
-    component: ProjectsList,
+    component: ProjectsController,
   },
   {
     id: 4,
@@ -47,15 +47,3 @@ export const pageSections = [
   },
 ];
 
-export const technologies = [
-  "React",
-  "Recoil.js",
-  "TypeScript",
-  "SASS",
-  "Firebase Auth",
-  "FireStore",
-  "CloudStorage",
-  "Jest",
-  "Redux",
-  "Java",
-];

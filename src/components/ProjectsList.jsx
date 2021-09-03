@@ -1,7 +1,17 @@
-export default function ProjectsList() {
+//Project Files
+import { projects } from "../data/projects";
+import ProjectCard from "./ProjectCard";
+
+export default function ProjectsList({viewProject}) {
   return (
-   <>
-   Projects List
-   </>
+      <div className="projects-list">
+        {projects.map((project) => (
+          <ProjectCard
+            key={project.id}
+            project={project}
+            onClick={() => viewProject(project)}
+          />
+        ))}
+      </div>
   );
 }

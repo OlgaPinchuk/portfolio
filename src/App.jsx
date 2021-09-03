@@ -1,14 +1,12 @@
 //Project files
-import Menu from "./components/Menu";
+import NavigationBar from "./components/NavigationBar";
 import Layout from "./components/Layout";
 
 export default function App() {
   return (
     <article className="App">
-      <Menu />
-      <main className="main-content">
-        <Layout />
-      </main>
+      <NavigationBar />
+      <Layout />
     </article>
   );
 }
