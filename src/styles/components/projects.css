@@ -1,0 +1,138 @@
+.projects-list {
+  padding: 0 20px;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, minmax(150px, 1fr));
+}
+
+/* Project card */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.project-thumb {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+.project-title {
+  margin: 15px 0;
+  font-weight: 700;
+}
+
+.project-title:hover {
+  text-decoration: underline;
+}
+
+.disabled-overlay {
+  position: relative;
+}
+
+.disabled-project-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: var(--color-white);
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.project-card.disabled {
+  pointer-events: none;
+}
+
+.disabled .project-thumb {
+  filter: invert(0.3);
+}
+
+.project-wrapper {
+  position: fixed;
+}
+
+.project-details {
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgb(0 0 0 / 25%);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+img.default {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.about-project {
+  padding: var(--space-medium);
+  color: var(--color-white);
+  background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+}
+
+.about-project h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: var(--font-size-big);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.about-project > p {
+  margin-bottom: var(--space-medium);
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: var(--font-size-medium);
+  line-height: 1.5;
+}
+
+.links {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.primary a {
+  margin-bottom: var(--space-small);
+  padding: var(--space-small);
+  display: block;
+  width: 100%;
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: var(--font-size-medium);
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  background-color: royalblue;
+  cursor: pointer;
+}
+
+.pills {
+  margin-bottom: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  color: initial;
+}
+
+.pill {
+  margin-top: 10px;
+  margin-right: 11px;
+  padding: 5px 10px;
+  border: 1px solid var(--color-black);
+  border-radius: 50px;
+}
+
+/* Media  */
+@media (min-width: 1023px) {
+  .projects-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,16 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Base */
+@import url("./base/variables.css");
+@import url("./base/reset.css");
+@import url("./base/layout.css");
+
+/* Components */
+@import url("./components/modal.css");
+@import url("./components/nav.css");
+@import url("./components/hero.css");
+@import url("./components/about.css");
+@import url("./components/projects.css");
+@import url("./components/technologies.css");
+@import url("./components/contacts.css");

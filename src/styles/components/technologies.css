@@ -1,0 +1,16 @@
+.tech-list ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  font-weight: 600;
+}
+
+.tech-item {
+  margin: var(--space-medium);
+}
+
+@media(max-width: 520px) {
+  .tech-list ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
