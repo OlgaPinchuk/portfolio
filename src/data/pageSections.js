@@ -1,8 +1,16 @@
-import AboutDetails from "../components/AboutDetails";
+import AboutDetails from "../sections/AboutDetails";
 import ProjectsController from "../components/ProjectsController";
 import TechList from "../components/TechList";
 import ContactDetails from "../components/ContactDetails";
 
+/**
+ * This has to be a json file -1
+ * Yes, i know JSON files cannot include React components,
+ * but that was the "tell sign" or "clue" that this could be
+ * done in a different way.
+ *
+ * Also you can see that they arent exactly the same when Hero does not have a component
+ */
 export const pageSections = [
   {
     id: 1,
@@ -35,7 +43,7 @@ export const pageSections = [
     title: "Technologies I use",
     description:
       "Here is the techology that I already know and also starting to learn.",
-      component: TechList,
+    component: TechList,
   },
   {
     id: 5,
@@ -46,4 +54,3 @@ export const pageSections = [
     component: ContactDetails,
   },
 ];
-

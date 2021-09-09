@@ -1,3 +1,4 @@
+// This can be a JSON
 export const projects = [
   {
     id: 1,

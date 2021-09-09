@@ -6,6 +6,7 @@ import ProjectsList from "./ProjectsList";
 import ProjectsDetails from "./ProjectsDetails";
 import Modal from "./Modal";
 
+// The modal can be on App
 export default function ProjectsController() {
   //State
   const [isOpen, setIsOpen] = useState(false);
