@@ -1,7 +1,7 @@
-//NPM files
+// Npm files
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-//Project files
+// Project files
 import Link from "./common/Link";
 
 export default function ContactItem({ item: { name, icon, href } }) {

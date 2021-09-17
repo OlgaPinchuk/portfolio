@@ -1,7 +1,7 @@
-// NPM Packages
+// Npm Packages
 import { useState } from "react";
 
-//Project files
+// Project files
 import Modal from "../common/Modal";
 import ProjectsList from "../ProjectsList";
 import ProjectsDetails from "../ProjectsDetails";
@@ -10,11 +10,11 @@ import { projects } from "../../data/pageSections.json";
 export default function Projects() {
   const { title, description } = projects;
 
-  //State
+  // State
   const [isOpen, setIsOpen] = useState(false);
   const [projectChosen, setProjectChosen] = useState(null);
 
-  //Methods
+  // Methods
   function viewProject(item) {
     setIsOpen(!isOpen);
     setProjectChosen(item);

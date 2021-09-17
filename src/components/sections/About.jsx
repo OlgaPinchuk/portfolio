@@ -1,4 +1,4 @@
-//Project files
+// Project files
 import aboutPicture from "../../assets/images/aboutPicture.png";
 import { about } from "../../data/pageSections.json";
 

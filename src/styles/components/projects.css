@@ -63,12 +63,13 @@
   overflow: hidden;
 }
 
-img.default {
+.project-details img.default {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
-  max-height: 200px;
+  max-height: 300px;
   object-fit: cover;
+  object-position: top;
 }
 
 .about-project {

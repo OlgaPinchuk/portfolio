@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "Vegan Restaurant Website",
+    "description": "This is a small website for a restaurant that is opening with just 1 location and a few menu items. It uses:",
+    "techs": [
+      "React",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Firebase Hoisting"
+    ],
+    "isLocked": false,
+    "screen": "vegan-screen.jpg",
+    "thumb": "vegan-thumb.jpg",
+    "git": "https://github.com/OlgaPinchuk/vegan-restaurant",
+    "hosting": "https://vegan-restaurant-903b8.web.app/"
+  },
+  {
+    "id": 2,
+    "title": "Package Tracker",
+    "description": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "techs": [
+      "React",
+      "Recoil",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Firebase Hoisting"
+    ],
+    "isLocked": true,
+    "screen": "parcels-screen.jpg",
+    "thumb": "parcels-thumb.jpg",
+    "git": "https://github.com/OlgaPinchuk/parcel-tracker",
+    "hosting": "https://olga-pinchuk-portfolio.web.app/"
+  },
+  {
+    "id": 3,
+    "title": "Todo List TTD",
+    "description": "This is a simple shopping list app that can work from any mobile web browser without any installations. It uses:",
+    "techs": [
+      "React",
+      "Recoil",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Jest",
+      "Firebase Hoisting"
+    ],
+    "isLocked": true,
+    "screen": "todolist-screen.jpg",
+    "thumb": "todolist-thumb.jpg",
+    "git": "https://github.com/OlgaPinchuk/shopping-list",
+    "hosting": "https://eika-shopping-list-19175.web.app/"
+  },
+  {
+    "id": 4,
+    "title": "E-commerce Site",
+    "description": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "techs": [
+      "React",
+      "Recoil",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Firebase Hoisting"
+    ],
+    "isLocked": true,
+    "screen": "ecommerce-screen.jpg",
+    "thumb": "ecommerce-thumb.jpg",
+    "git": "https://github.com/OlgaPinchuk",
+    "hosting": "https://olga-pinchuk-portfolio.web.app/"
+  },
+  {
+    "id": 5,
+    "title": "BBQ Restaruant Website",
+    "description": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "techs": [
+      "React",
+      "Recoil",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Firebase Hoisting"
+    ],
+    "isLocked": true,
+    "screen": "bbq-screen.jpg",
+    "thumb": "bbq-thumb.jpg",
+    "git": "https://github.com/OlgaPinchuk",
+    "hosting": "https://olga-pinchuk-portfolio.web.app/"
+  },
+  {
+    "id": 6,
+    "title": "Learning Platform",
+    "description": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "techs": [
+      "React",
+      "Recoil",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Firebase Hoisting"
+    ],
+    "isLocked": true,
+    "screen": "learning-platform-screen.jpg",
+    "thumb": "learning-platform-thumb.jpg",
+    "git": "https://github.com/OlgaPinchuk",
+    "hosting": "https://olga-pinchuk-portfolio.web.app/"
+  },
+  {
+    "id": 7,
+    "title": "Netflix Clone",
+    "description": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "techs": [
+      "React",
+      "Recoil",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Firebase Hoisting"
+    ],
+    "isLocked": true,
+    "screen": "netflix-screen.jpg",
+    "thumb": "netflix-thumb.jpg",
+    "git": "https://github.com/OlgaPinchuk",
+    "hosting": "https://olga-pinchuk-portfolio.web.app/"
+  }
+]

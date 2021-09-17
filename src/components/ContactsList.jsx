@@ -1,4 +1,4 @@
-//Project files
+// Project files
 import List from "./common/List";
 import ContactItem from "./ContactItem";
 import { contactInfo } from "../data/contacts.json";

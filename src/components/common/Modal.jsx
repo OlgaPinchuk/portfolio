@@ -1,4 +1,4 @@
-//NPM packages
+// Npm packages
 import ReactDOM from "react-dom";
 
 export default function Modal({ open, children, onClose }) {

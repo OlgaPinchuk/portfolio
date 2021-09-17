@@ -1,4 +1,4 @@
-//Project files
+// Project files
 import { hero } from "../../data/pageSections.json";
 
 export default function Hero() {

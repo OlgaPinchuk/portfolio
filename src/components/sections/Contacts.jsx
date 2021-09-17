@@ -1,4 +1,4 @@
-//Project files
+// Project files
 import ContactsList from "../ContactsList";
 import Footer from "../Footer";
 import { contacts } from "../../data/pageSections.json";
