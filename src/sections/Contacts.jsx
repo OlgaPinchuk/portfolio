@@ -1,7 +1,7 @@
 // Project files
-import ContactsList from "../ContactsList";
-import Footer from "../Footer";
-import { contacts } from "../../data/pageSections.json";
+import ContactsList from "../components/ContactsList";
+import Footer from "../components/Footer";
+import { contacts } from "../data/pageSections.json";
 
 export default function Contacts() {
   const { title, description } = contacts;

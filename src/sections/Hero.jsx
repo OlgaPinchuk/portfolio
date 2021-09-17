@@ -1,5 +1,5 @@
 // Project files
-import { hero } from "../../data/pageSections.json";
+import { hero } from "../data/pageSections.json";
 
 export default function Hero() {
   const { title } = hero;

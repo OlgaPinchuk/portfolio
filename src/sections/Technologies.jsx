@@ -1,6 +1,6 @@
 // Project files
-import TechList from "../TechList";
-import { technologies } from "../../data/pageSections.json";
+import TechList from "../components/TechList";
+import { technologies } from "../data/pageSections.json";
 
 export default function Technologies() {
   const { title, description } = technologies;

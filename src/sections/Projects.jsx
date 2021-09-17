@@ -1,7 +1,7 @@
 // Project files
-import ProjectsList from "../ProjectsList";
-import ProjectModal from "../ProjectModal";
-import { projects } from "../../data/pageSections.json";
+import ProjectsList from "../components/ProjectsList";
+import ProjectModal from "../components/ProjectModal";
+import { projects } from "../data/pageSections.json";
 
 export default function Projects({ setModal }) {
   const { title, description } = projects;

@@ -1,6 +1,6 @@
 // Project files
-import aboutPicture from "../../assets/images/aboutPicture.png";
-import { about } from "../../data/pageSections.json";
+import aboutPicture from "../assets/images/aboutPicture.png";
+import { about } from "../data/pageSections.json";
 
 export default function About() {
   const { title, description } = about;
