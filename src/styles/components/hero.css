@@ -1,11 +1,8 @@
-.layout.hero {
+.page-section.hero {
   height: 100vh;
-  display: grid;
+  color: var(--color-purple);
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
-}
-
-.hero h2 {
-  color: var(--color-purple);
-  text-align: center;
 }

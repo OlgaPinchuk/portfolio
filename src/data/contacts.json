@@ -1,0 +1,34 @@
+{
+  "contactInfo": [
+    {
+      "id": 1,
+      "name": "pinchukolya@gmail.com",
+      "href": "mailto:pinchukolya@gmail.com",
+      "icon": "envelope"
+    },
+    {
+      "id": 2,
+      "name": "+46 70 206 9121",
+      "href": "tel:+46 70 206 9121",
+      "icon": "phone"
+    },
+    {
+      "id": 3,
+      "name": "Stockholm, Sweden",
+      "href": "https://www.google.com/maps/place/Stockholm",
+      "icon": "map-marker-alt"
+    }
+  ],
+  "contactLinks": [
+    {
+      "id": 1,
+      "url": "https://www.linkedin.com/in/olga-pinchuk-7176b0132/",
+      "icon": "linkedin"
+    },
+    {
+      "id": 2,
+      "url": "https://github.com/OlgaPinchuk",
+      "icon": "git"
+    }
+  ]
+}

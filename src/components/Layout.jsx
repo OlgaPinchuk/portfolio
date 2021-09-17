@@ -1,8 +1,18 @@
-//Project files
-import List from "./List";
-import PageSection from "./PageSection";
-import { pageSections } from "../data/pageSections";
+// Project files
+import Hero from "../sections/Hero";
+import About from "../sections/About";
+import Projects from "../sections/Projects";
+import Technologies from "../sections/Technologies";
+import Contacts from "../sections/Contacts";
 
-export default function Layout() {
-  return <List list={pageSections} Component={PageSection} />;
+export default function Layout({ setModal }) {
+  return (
+    <>
+      <Hero />
+      <About />
+      <Projects setModal={setModal} />
+      <Technologies />
+      <Contacts />
+    </>
+  );
 }

@@ -32,6 +32,7 @@
   color: var(--color-purple);
 }
 
+/* Media queries */
 @media (min-width: 1025px) {
   .modal-container {
     max-width: 600px;

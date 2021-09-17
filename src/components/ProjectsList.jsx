@@ -1,5 +1,5 @@
-//Project Files
-import { projects } from "../data/projects";
+// Project Files
+import projects from "../data/projects.json";
 import ProjectCard from "./ProjectCard";
 
 export default function ProjectsList({ viewProject }) {

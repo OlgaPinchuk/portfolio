@@ -46,12 +46,14 @@
   color: var(--color-white);
 }
 
+
+/* Media queries */
 @media (min-width: 1025px) {
   .contacts-section ul {
     margin-top: 0;
   }
 
-  .layout.contact {
+  .page-section.contact {
     grid-template-areas:
       "title title"
       "aside content"

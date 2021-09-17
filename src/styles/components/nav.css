@@ -26,7 +26,6 @@
 }
 
 .nav-item a {
-  text-decoration: none;
   color: var(--color-purple);
   font-weight: 600;
 }
@@ -43,11 +42,12 @@
   order: 2;
 }
 
-.contact-item,
+.contacts-item,
 .tech-item {
   order: 3;
 }
 
+/* Media queries */
 @media (min-width: 1025px) {
   .nav-bar ul {
     grid-template-columns: 1fr repeat(4, auto);
@@ -59,6 +59,7 @@
     justify-self: start;
   }
 }
+
 @media (max-width: 440px) {
   .nav-item a {
     font-size: var(--font-size-small);

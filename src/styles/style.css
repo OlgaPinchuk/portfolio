@@ -7,10 +7,10 @@
 @import url("./base/layout.css");
 
 /* Components */
+@import url("./components/about.css");
+@import url("./components/contacts.css");
+@import url("./components/hero.css");
 @import url("./components/modal.css");
 @import url("./components/nav.css");
-@import url("./components/hero.css");
-@import url("./components/about.css");
 @import url("./components/projects.css");
 @import url("./components/technologies.css");
-@import url("./components/contacts.css");

@@ -1,15 +1,15 @@
-//NPM files
+// NPM Packages
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-//Project files
-import Link from "./Link";
-import { contactLinks } from "../data/contacts";
+// Project files
+import Link from "./common/Link";
+import { contactLinks } from "../data/contacts.json";
 
 export default function Footer() {
   const socialMedia = contactLinks.map((link) => {
     return (
-      <Link href={link.href} key={link.id}>
-        <FontAwesomeIcon icon={link.icon} size="lg" />
+      <Link href={link.url} key={link.id}>
+        <FontAwesomeIcon icon={["fab", `${link.icon}`]} size="lg" />
       </Link>
     );
   });
