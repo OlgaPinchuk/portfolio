@@ -1,4 +1,5 @@
 export default function ProjectCard({ project, onClick }) {
+  // Constants
   const { title, thumb, isLocked } = project;
   const imageSrc = require(`../assets/images/projects/thumbs/${thumb}`).default;
 

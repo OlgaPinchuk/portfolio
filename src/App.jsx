@@ -21,11 +21,13 @@ export default function App() {
   return (
     <article className="App">
       <NavigationBar />
-      <Hero />
-      <About />
-      <Projects />
-      <Technologies />
-      <Contacts />
+      <section className="main">
+        <Hero />
+        <About />
+        <Projects />
+        <Technologies />
+        <Contacts />
+      </section>
     </article>
   );
 }
