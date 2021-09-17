@@ -42,7 +42,7 @@
   order: 2;
 }
 
-.contact-item,
+.contacts-item,
 .tech-item {
   order: 3;
 }
@@ -56,5 +56,11 @@
   .hero-item {
     order: initial;
     justify-self: start;
+  }
+}
+
+@media (max-width: 440px) {
+  .nav-item a {
+    font-size: var(--font-size-small);
   }
 }

@@ -21,16 +21,18 @@ export default function Projects() {
   }
 
   return (
-    <section className="page-section flex-column projects" id="projects">
-      <h2 className="section-title">{title}</h2>
-      <div className="descriptions">
-        <p>{description}</p>
-      </div>
-      <div className="projects-wrapper">
-        <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-          <ProjectsDetails project={projectChosen} />
-        </Modal>
-        <ProjectsList viewProject={viewProject} />
+    <section className="page-section projects" id="projects">
+      <div className="container">
+        <h2 className="section-title">{title}</h2>
+        <div className="descriptions">
+          <p>{description}</p>
+        </div>
+        <div className="projects-wrapper">
+          <Modal open={isOpen} onClose={() => setIsOpen(false)}>
+            <ProjectsDetails project={projectChosen} />
+          </Modal>
+          <ProjectsList viewProject={viewProject} />
+        </div>
       </div>
     </section>
   );

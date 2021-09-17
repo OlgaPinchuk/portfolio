@@ -40,7 +40,7 @@
   color: var(--color-white);
   text-align: center;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .project-card.disabled {
@@ -49,10 +49,6 @@
 
 .disabled .project-thumb {
   filter: invert(0.3);
-}
-
-.project-wrapper {
-  position: fixed;
 }
 
 .project-details {
@@ -78,7 +74,7 @@
   background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
 }
 
-.about-project h2 {
+.about-project .section-title {
   margin: 0;
   margin-bottom: 10px;
   font-size: var(--font-size-big);
