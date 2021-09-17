@@ -5,14 +5,14 @@ import Projects from "./sections/Projects";
 import Technologies from "./sections/Technologies";
 import Contacts from "./sections/Contacts";
 
-export default function Layout() {
+export default function Layout({ setModal }) {
   return (
-    <section className="main">
+    <>
       <Hero />
       <About />
-      <Projects />
+      <Projects setModal={setModal} />
       <Technologies />
       <Contacts />
-    </section>
+    </>
   );
 }

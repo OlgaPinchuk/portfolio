@@ -1,23 +1,21 @@
-// Npm files
-import { library } from "@fortawesome/fontawesome-svg-core";
-import {
-  faEnvelope,
-  faPhone,
-  faMapMarkerAlt,
-} from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faGit } from "@fortawesome/free-brands-svg-icons";
+// NPM Packages
+import { useState } from "react";
 
 // Project files
 import NavigationBar from "./components/NavigationBar";
 import Layout from "./components/Layout";
-
-library.add(faEnvelope, faPhone, faMapMarkerAlt, faLinkedin, faGit);
+import Modal from "./components/common/Modal";
+import "./scripts/icons.js";
 
 export default function App() {
+  // Local state
+  const [modal, setModal] = useState(null);
+
   return (
     <article className="App">
       <NavigationBar />
-      <Layout />
+      <Layout setModal={setModal} />
+      <Modal state={[modal, setModal]} />
     </article>
   );
 }

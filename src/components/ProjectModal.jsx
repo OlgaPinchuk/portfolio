@@ -1,7 +1,7 @@
 // Project files
 import Link from "./common/Link";
 
-export default function ProjectsDetails({ project }) {
+export default function ProjectModal({ project }) {
   const { title, screen, description, techs, git, hosting } = project;
 
   const imageSrc =

@@ -2,7 +2,7 @@
 import TechList from "../TechList";
 import { technologies } from "../../data/pageSections.json";
 
-export default function Projects() {
+export default function Technologies() {
   const { title, description } = technologies;
 
   return (

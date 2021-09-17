@@ -1,23 +1,14 @@
-// Npm Packages
-import { useState } from "react";
-
 // Project files
-import Modal from "../common/Modal";
 import ProjectsList from "../ProjectsList";
-import ProjectsDetails from "../ProjectsDetails";
+import ProjectModal from "../ProjectModal";
 import { projects } from "../../data/pageSections.json";
 
-export default function Projects() {
+export default function Projects({ setModal }) {
   const { title, description } = projects;
-
-  // State
-  const [isOpen, setIsOpen] = useState(false);
-  const [projectChosen, setProjectChosen] = useState(null);
 
   // Methods
   function viewProject(item) {
-    setIsOpen(!isOpen);
-    setProjectChosen(item);
+    setModal(<ProjectModal project={item} />);
   }
 
   return (
@@ -28,9 +19,6 @@ export default function Projects() {
           <p>{description}</p>
         </div>
         <div className="projects-wrapper">
-          <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-            <ProjectsDetails project={projectChosen} />
-          </Modal>
           <ProjectsList viewProject={viewProject} />
         </div>
       </div>
