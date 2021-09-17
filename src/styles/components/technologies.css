@@ -9,7 +9,11 @@
   margin: var(--space-medium);
 }
 
-@media(max-width: 520px) {
+.tech-item img {
+  margin-bottom: var(--space-small);
+}
+
+@media (max-width: 520px) {
   .tech-list ul {
     grid-template-columns: repeat(3, 1fr);
   }
