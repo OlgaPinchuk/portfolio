@@ -51,7 +51,7 @@
     margin-top: 0;
   }
 
-  .layout.contact {
+  .page-section.contact {
     grid-template-areas:
       "title title"
       "aside content"

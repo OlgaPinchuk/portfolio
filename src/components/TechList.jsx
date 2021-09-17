@@ -1,5 +1,5 @@
 //Project files
-import List from "./List";
+import List from "./common/List";
 import TechItem from "./TechItem";
 import { technologies } from "../data/technologies";
 

@@ -3,7 +3,7 @@ export default function TechItem({ id, item: { name, imgSrc } }) {
 
   return (
     <li key={id} className="tech-item">
-      <img src={imageSrc} alt="" />
+      <img src={imageSrc} alt="Technology logo" />
       <p>{name}</p>
     </li>
   );

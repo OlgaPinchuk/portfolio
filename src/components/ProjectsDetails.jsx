@@ -1,5 +1,4 @@
-import Link from "./Link";
-import List from "./List";
+import Link from "./common/Link";
 
 export default function ProjectsDetails({ project }) {
   const { title, screen, description, techs, git, hosting } = project;
