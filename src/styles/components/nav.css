@@ -47,6 +47,7 @@
   order: 3;
 }
 
+/* Media queries */
 @media (min-width: 1025px) {
   .nav-bar ul {
     grid-template-columns: 1fr repeat(4, auto);

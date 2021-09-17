@@ -127,7 +127,7 @@
   border-radius: 50px;
 }
 
-/* Media  */
+/* Media queries */
 @media (min-width: 1023px) {
   .projects-list {
     grid-template-columns: repeat(3, 1fr);

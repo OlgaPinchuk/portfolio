@@ -6,4 +6,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGit } from "@fortawesome/free-brands-svg-icons";
 
-export const iconsLibrary = library.add(faEnvelope, faPhone, faMapMarkerAlt, faLinkedin, faGit);
+export const iconsLibrary = library.add(
+  faEnvelope,
+  faPhone,
+  faMapMarkerAlt,
+  faLinkedin,
+  faGit
+);

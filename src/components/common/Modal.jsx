@@ -4,9 +4,7 @@ import ReactDOM from "react-dom";
 export default function Modal({ state }) {
   const [child, setChild] = state;
 
-  // safeguard
   if (child === null) return null;
-
 
   return ReactDOM.createPortal(
     <div className="modal-overlay">

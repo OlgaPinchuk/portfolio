@@ -3,13 +3,7 @@
     "id": 1,
     "title": "Vegan Restaurant Website",
     "description": "This is a small website for a restaurant that is opening with just 1 location and a few menu items. It uses:",
-    "techs": [
-      "React",
-      "Javascript",
-      "HTML",
-      "CSS",
-      "Firebase Hoisting"
-    ],
+    "techs": ["React", "Javascript", "HTML", "CSS", "Firebase Hoisting"],
     "isLocked": false,
     "screen": "vegan-screen.jpg",
     "thumb": "vegan-thumb.jpg",
