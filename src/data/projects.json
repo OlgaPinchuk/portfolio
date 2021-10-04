@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Vegan Restaurant Website",
     "description": "This is a small website for a restaurant that is opening with just 1 location and a few menu items. It uses:",
-    "techs": ["React", "Javascript", "HTML", "CSS", "Firebase Hoisting"],
+    "techs": ["React", "Javascript", "HTML", "CSS", "Firebase Hosting"],
     "isLocked": false,
     "screen": "vegan-screen.jpg",
     "thumb": "vegan-thumb.jpg",
@@ -13,20 +13,20 @@
   {
     "id": 2,
     "title": "Package Tracker",
-    "description": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "description": "This is a web app for delivery company's customers that displays a list of orders (or parcels) with some details they need to know: order status, ETAs, pickup locations, etc. It uses:",
     "techs": [
       "React",
       "Recoil",
       "Javascript",
       "HTML",
       "CSS",
-      "Firebase Hoisting"
+      "Firebase Hosting"
     ],
-    "isLocked": true,
+    "isLocked": false,
     "screen": "parcels-screen.jpg",
     "thumb": "parcels-thumb.jpg",
-    "git": "https://github.com/OlgaPinchuk/parcel-tracker",
-    "hosting": "https://olga-pinchuk-portfolio.web.app/"
+    "git": "https://github.com/OlgaPinchuk/package-tracker",
+    "hosting": "https://insta-packet.web.app/"
   },
   {
     "id": 3,
@@ -34,17 +34,16 @@
     "description": "This is a simple shopping list app that can work from any mobile web browser without any installations. It uses:",
     "techs": [
       "React",
-      "Recoil",
       "Javascript",
       "HTML",
       "CSS",
       "Jest",
-      "Firebase Hoisting"
+      "Firebase Hosting"
     ],
-    "isLocked": true,
+    "isLocked": false,
     "screen": "todolist-screen.jpg",
     "thumb": "todolist-thumb.jpg",
-    "git": "https://github.com/OlgaPinchuk/shopping-list",
+    "git": "https://github.com/OlgaPinchuk/shopping-list/tree/unit-tests",
     "hosting": "https://eika-shopping-list-19175.web.app/"
   },
   {
@@ -57,7 +56,7 @@
       "Javascript",
       "HTML",
       "CSS",
-      "Firebase Hoisting"
+      "Firebase Hosting"
     ],
     "isLocked": true,
     "screen": "ecommerce-screen.jpg",
@@ -75,7 +74,7 @@
       "Javascript",
       "HTML",
       "CSS",
-      "Firebase Hoisting"
+      "Firebase Hosting"
     ],
     "isLocked": true,
     "screen": "bbq-screen.jpg",
@@ -93,7 +92,7 @@
       "Javascript",
       "HTML",
       "CSS",
-      "Firebase Hoisting"
+      "Firebase Hosting"
     ],
     "isLocked": true,
     "screen": "learning-platform-screen.jpg",
@@ -111,7 +110,7 @@
       "Javascript",
       "HTML",
       "CSS",
-      "Firebase Hoisting"
+      "Firebase Hosting"
     ],
     "isLocked": true,
     "screen": "netflix-screen.jpg",
