@@ -49,20 +49,21 @@
   {
     "id": 4,
     "title": "BBQ Restaruant Website",
-    "description": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "description": "It's a BBQ website which data we get from the Firebase storage. It uses:",
     "techs": [
       "React",
-      "Recoil",
       "Javascript",
       "HTML",
       "CSS",
+      "Firebase Firestore",
+      "Firebase Storage",
       "Firebase Hosting"
     ],
-    "isLocked": true,
+    "isLocked": false,
     "screen": "bbq-screen.jpg",
     "thumb": "bbq-thumb.jpg",
-    "git": "https://github.com/OlgaPinchuk",
-    "hosting": "https://olga-pinchuk-portfolio.web.app/"
+    "git": "https://github.com/OlgaPinchuk/bbq-restaurant",
+    "hosting": "https://bbq-ribs-house.web.app/"
   },
   {
     "id": 5,
@@ -85,19 +86,21 @@
   {
     "id": 6,
     "title": "Netflix Clone",
-    "description": "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "description": "This is the copy of Netflix which is created for learning purpose. It uses:",
     "techs": [
       "React",
-      "Recoil",
       "Javascript",
       "HTML",
       "CSS",
+      "Firebase Authentication",
+      "Firebase Firestore",
+      "Firebase Storage",
       "Firebase Hosting"
     ],
-    "isLocked": true,
+    "isLocked": false,
     "screen": "netflix-screen.jpg",
     "thumb": "netflix-thumb.jpg",
-    "git": "https://github.com/OlgaPinchuk",
-    "hosting": "https://olga-pinchuk-portfolio.web.app/"
+    "git": "https://github.com/OlgaPinchuk/netflix-clone",
+    "hosting": "https://netflix-clone-59219.web.app/"
   }
 ]
