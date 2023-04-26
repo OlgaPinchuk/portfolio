@@ -18,7 +18,7 @@ export default function Footer() {
     <div className="footer">
       <div className="social-media">{socialMedia}</div>
       <div className="copyright">
-        <p> © 2021 • Olga Pinchuk</p>
+        <p> © {new Date().getFullYear()} • Olga Pinchuk</p>
       </div>
     </div>
   );
